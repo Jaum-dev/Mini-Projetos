@@ -13,7 +13,7 @@ print("\nQuantidade de títulos por Categoria:")
 contagem_categoria = df['Category'].value_counts()
 print(contagem_categoria.to_string())
 
-# 5 Países com mais produções no catálogo
+# Países com mais produções no catálogo
 print("\nTop 5 Países com mais títulos:")
 top_paises = df['Country'].value_counts().head(5)
 print(top_paises.to_string())
